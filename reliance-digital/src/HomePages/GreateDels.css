@@ -1,0 +1,19 @@
+.topdiv {
+    margin-top: 10px;
+    display: grid;
+
+
+
+
+}
+
+.dels {
+    padding-left: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.dels img {
+    margin: 5px;
+}

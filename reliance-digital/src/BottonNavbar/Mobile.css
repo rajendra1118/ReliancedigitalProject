@@ -1,0 +1,70 @@
+.maindiv {
+    display: flex;
+
+}
+
+/* .maindiv>div {
+    border: 1px solid green
+} */
+
+.sidediv {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    font-size: 13px;
+    height: 500px;
+    width: 350px;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.Mobileproduct {
+    display: grid;
+    padding: 20px;
+}
+
+.Mobileproduct>div {
+
+    padding: 10px;
+}
+
+.Mobileproduct>div:nth-child(1) {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.mobilelist {
+    /* width: 400px; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px;
+
+}
+
+/* .mobiledata {
+    width: 25%;
+} */
+
+.mobilelist>div {
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+}
+
+.mobiledata img {
+    margin-top: 20px;
+    width: 70%;
+    height: 60%;
+}
+
+
+.mobiledata img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.mobiledata:hover img {
+    transform: scale(1.1);
+}

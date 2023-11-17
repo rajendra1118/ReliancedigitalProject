@@ -1,0 +1,94 @@
+.productranges {
+  margin-top: 30px;
+  height: 300px;
+  width: 100%;
+  padding-top: 40px;
+
+
+
+}
+
+.productranges h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.productdatadivs {
+
+  height: 280px;
+
+
+}
+
+
+
+
+.productranges>div h1 {
+  font-size: 15px;
+
+}
+
+.slick-slide a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.slick-slide:hover a {
+  color: dodgerblue;
+}
+
+/* .slick-slide .image {
+    object-fit: cover;
+    border-radius: 2px;
+    min-width: 150px ;
+    width: 80%;
+  } */
+
+.slick-slider {
+
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+.slick-slide div {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-next {
+  right: 10px;
+  background: rgb(113, 111, 111) !important;
+  border-radius: 9px;
+
+
+}
+
+.slick-arrow {
+  z-index: 1;
+  width: 25px;
+  height: 60px;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 2;
+  background: rgb(115, 112, 112) !important;
+  border-radius: 7px;
+}
+
+.slick-slide img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.slick-slide:hover img {
+  transform: scale(1.2);
+}

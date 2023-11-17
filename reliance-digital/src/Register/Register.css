@@ -1,0 +1,82 @@
+.auth_form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.auth_form input {
+    height: 30px;
+
+}
+
+
+
+
+
+
+/* .topLoginDiv {
+
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+
+}
+
+.topLoginDiv img {
+    width: 60%;
+}
+
+.LoginDiv {
+    margin-left: 30px;
+    display: grid;
+
+    width: 30%;
+    height: 250px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.LoginDiv>div:nth-child(1) {
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    padding: 10px;
+    margin-bottom: -40px;
+    padding-top: 20px;
+
+}
+
+.LoginDiv>div:nth-child(2) {
+    display: grid;
+    margin-top: -10px;
+
+
+
+
+
+}
+
+.LoginDiv>div:nth-child(2) input {
+    height: 40px;
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+}
+
+.LoginDiv>div:nth-child(2) button {
+    text-decoration: none;
+    width: 85%;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: rgb(228, 37, 41);
+    border: rgb(228, 37, 41);
+    color: aliceblue;
+} */
